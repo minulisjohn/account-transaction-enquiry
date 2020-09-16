@@ -16,6 +16,7 @@ public class AccountEnquiryService {
 	
 	@Autowired
 	AccountRepository accountRepo;
+	@Autowired
 	AccountTransactionRepository accountTransactionRepo;
 	
 	//Service method for fetching accounts for the logged in user
